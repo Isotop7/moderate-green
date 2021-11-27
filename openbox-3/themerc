@@ -20,11 +20,14 @@
 # tint-5 = #d2e19f
 # tint-6 = #e1ebbf
 
-# june bud      = #B5CD60
-# eerie black   = #171717
-# crimson ua    = #A62639
-# orange peel   = #FF9F1C
-# teal blue     = #077187
+# june bud          = #B5CD60
+# eerie black       = #171717
+# crimson ua        = #A62639
+# crimson ua tint   = #841e2d
+# orange peel       = #FF9F1C
+# orange peel tint  = #cc7f16
+# teal blue         = #077187
+# teal blue tint    = #055a6c
 
 
 
@@ -62,6 +65,9 @@ window.inactive.button.unpressed.image.color: #d2e19f
 window.inactive.button.pressed.image.color: #d2e19f
 window.inactive.button.disabled.image.color: #242424
 window.inactive.button.hover.image.color: #e1ebbf
+window.inactive.button.iconify.unpressed.image.color: #055a6c
+window.inactive.button.max.unpressed.image.color: #cc7f16
+window.inactive.button.close.unpressed.image.color: #841e2d
 window.inactive.button.toggled.unpressed.image.color: #c3d77f
 window.inactive.button.toggled.pressed.image.color: #B5CD60
 window.inactive.button.toggled.hover.image.color: #afb8c5
