@@ -13,6 +13,21 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+# tint-1 = #6c7b39
+# tint-2 = #90a44c
+# tint-3 = #B5CD60
+# tint-4 = #c3d77f
+# tint-5 = #d2e19f
+# tint-6 = #e1ebbf
+
+# june bud      = #B5CD60
+# eerie black   = #171717
+# crimson ua    = #A62639
+# orange peel   = #FF9F1C
+# teal blue     = #077187
+
+
+
 ### WINDOW
 border.width: 0
 
@@ -20,8 +35,8 @@ window.client.padding.width: 4
 window.client.padding.height: 4
 window.handle.width: 0
 
-padding.width: 2
-padding.height: 2
+padding.width: 10
+padding.height: 4
 
 window.active.border.color: #242424
 window.inactive.border.color: #242424
@@ -33,18 +48,21 @@ window.inactive.client.color: #242424
 window.active.label.text.color: #b5cd60
 window.inactive.label.text.color: #d2e19f
 
-window.active.button.unpressed.image.color: #90a44c
+window.active.button.unpressed.image.color: #B5CD60
+window.active.button.max.unpressed.image.color: #077187
+window.active.button.iconify.unpressed.image.color: #FF9F1C
+window.active.button.close.unpressed.image.color: #A62639
 window.active.button.pressed.image.color: #B5CD60
 window.active.button.disabled.image.color: #242424
 window.active.button.hover.image.color: #c3d77f
 window.active.button.toggled.unpressed.image.color: #90a44c
 window.active.button.toggled.pressed.image.color: #B5CD60
 window.active.button.toggled.hover.image.color: #c3d77f
-window.inactive.button.unpressed.image.color: #1F2328
-window.inactive.button.pressed.image.color: #B5CD60
+window.inactive.button.unpressed.image.color: #d2e19f
+window.inactive.button.pressed.image.color: #d2e19f
 window.inactive.button.disabled.image.color: #242424
-window.inactive.button.hover.image.color: #afb8c5
-window.inactive.button.toggled.unpressed.image.color: #1F2328
+window.inactive.button.hover.image.color: #e1ebbf
+window.inactive.button.toggled.unpressed.image.color: #c3d77f
 window.inactive.button.toggled.pressed.image.color: #B5CD60
 window.inactive.button.toggled.hover.image.color: #afb8c5
 
@@ -76,25 +94,25 @@ window.inactive.button.toggled.unpressed.bg: parentrelative
 window.inactive.button.toggled.pressed.bg: parentrelative
 window.inactive.button.toggled.hover.bg: parentrelative
 
-window.label.text.justify: center
+window.label.text.justify: left
 
 #window.active.label.text.font: text shadow
 #window.inactive.label.text.font: text shadow
 
 ### MENU
-menu.border.width: 4
-menu.separator.width: 1
-menu.separator.padding.width: 10
-menu.separator.padding.height: 2
+menu.border.width: 3
+menu.separator.width: 2
+menu.separator.padding.width: 6
+menu.separator.padding.height: 4
 
-menu.overlap.x: 0
+menu.overlap.x: -3
 menu.overlap.y: 0
 
-menu.border.color: #242424
-menu.separator.color: #242424
+menu.border.color: #6c7b39
+menu.separator.color: #90a44c
 
 menu.title.text.color: #ffffff
-menu.items.text.color: #a8adb5
+menu.items.text.color: #e1ebbf
 menu.items.disabled.text.color: #76797F
 menu.items.active.text.color: #242424
 menu.items.active.disabled.text.color: #aeb0b6
@@ -102,29 +120,24 @@ menu.items.active.disabled.text.color: #aeb0b6
 menu.items.bg: flat solid
 menu.items.bg.color: #242424
 menu.items.active.bg: flat solid
-menu.items.active.bg.color: #B5CD60
+menu.items.active.bg.color: #6c7b39
 menu.title.bg: flat solid
 menu.title.bg.color: #242424
 
 menu.title.text.justify: center
 
-#menu.items.font: text shadow
-#menu.title.text.font: text shadow
-
 ### OSD
-osd.border.width: 1
-
-osd.border.color: #242424
-
-osd.label.text.color: #D3DAE3
+osd.border.width: 6
+osd.border.color: #6c7b39
+osd.label.text.color: #e1ebbf
 
 osd.bg: flat solid
 osd.bg.color: #242424
 osd.label.bg: flat solid
-osd.label.bg.color: #242424
+osd.label.bg.color: #6c7b39
 osd.hilight.bg: flat solid
 osd.hilight.bg.color: #B5CD60
 osd.unhilight.bg: flat solid
-osd.unhilight.bg.color: #000000
+osd.unhilight.bg.color: #e1ebbf
 
 #osd.label.text.font: text shadow
