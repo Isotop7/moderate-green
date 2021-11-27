@@ -49,8 +49,8 @@ window.active.label.text.color: #b5cd60
 window.inactive.label.text.color: #d2e19f
 
 window.active.button.unpressed.image.color: #B5CD60
-window.active.button.max.unpressed.image.color: #077187
-window.active.button.iconify.unpressed.image.color: #FF9F1C
+window.active.button.iconify.unpressed.image.color: #077187
+window.active.button.max.unpressed.image.color: #FF9F1C
 window.active.button.close.unpressed.image.color: #A62639
 window.active.button.pressed.image.color: #B5CD60
 window.active.button.disabled.image.color: #242424
