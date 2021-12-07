@@ -13,25 +13,31 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# tint-1 = #6c7b39
-# tint-2 = #90a44c
-# tint-3 = #B5CD60
-# tint-4 = #c3d77f
-# tint-5 = #d2e19f
-# tint-6 = #e1ebbf
+# tint-1                = #6c7b39
+# tint-2                = #90a44c
+# tint-3                = #B5CD60
+# tint-4                = #c3d77f
+# tint-5                = #d2e19f
+# tint-6                = #e1ebbf
 
-# june bud          = #B5CD60
-# eerie black       = #171717
-# crimson ua        = #A62639
-# crimson ua tint   = #841e2d
-# orange peel       = #FF9F1C
-# orange peel tint  = #cc7f16
-# teal blue         = #077187
-# teal blue tint    = #055a6c
+# june bud              = #B5CD60
+# eerie black           = #171717
+# eerie black tint high = #242424
+# gray90                = #e5e5e5
+# crimson ua            = #A62639
+# crimson ua tint low   = #841e2d
+# crimson ua tint high  = #d2929c
+# orange peel           = #FF9F1C
+# orange peel tint low  = #cc7f16
+# orange peel tint high = #ffcf8d
+# teal blue             = #077187
+# teal blue tint low    = #055a6c
+# teal blue tint high   = #83b8c3
 
 
 
-### WINDOW
+################### Windows ####################
+
 border.width: 0
 
 window.client.padding.width: 4
@@ -41,6 +47,8 @@ window.handle.width: 0
 padding.width: 10
 padding.height: 4
 
+################### Window borders ####################
+
 window.active.border.color: #242424
 window.inactive.border.color: #242424
 window.active.title.separator.color: #242424
@@ -48,29 +56,60 @@ window.inactive.title.separator.color: #242424
 window.active.client.color: #242424
 window.inactive.client.color: #242424
 
-window.active.label.text.color: #b5cd60
-window.inactive.label.text.color: #d2e19f
+window.active.label.text.color: #B5CD60
+window.inactive.label.text.color: #e5e5e5
 
+################### Active Buttons ####################
+
+# Unpressed
 window.active.button.unpressed.image.color: #B5CD60
 window.active.button.iconify.unpressed.image.color: #077187
 window.active.button.max.unpressed.image.color: #FF9F1C
 window.active.button.close.unpressed.image.color: #A62639
-window.active.button.pressed.image.color: #B5CD60
+
+# Pressed
+window.active.button.pressed.image.color: #e5e5e5
+
+# Disabled
 window.active.button.disabled.image.color: #242424
+
+# Hover
 window.active.button.hover.image.color: #c3d77f
+window.active.button.iconify.hover.image.color: #83b8c3
+window.active.button.max.hover.image.color: #ffcf8d
+window.active.button.close.hover.image.color: #d2929c
+
+# Toggled + Unpressed
 window.active.button.toggled.unpressed.image.color: #90a44c
 window.active.button.toggled.pressed.image.color: #B5CD60
 window.active.button.toggled.hover.image.color: #c3d77f
+
+################# Inactive Buttons ####################
+
+# Unpressed
 window.inactive.button.unpressed.image.color: #d2e19f
-window.inactive.button.pressed.image.color: #d2e19f
-window.inactive.button.disabled.image.color: #242424
-window.inactive.button.hover.image.color: #e1ebbf
 window.inactive.button.iconify.unpressed.image.color: #055a6c
 window.inactive.button.max.unpressed.image.color: #cc7f16
 window.inactive.button.close.unpressed.image.color: #841e2d
+
+# Pressed
+window.inactive.button.pressed.image.color: #d2e19f
+
+# Disabled
+window.inactive.button.disabled.image.color: #242424
+
+# Hover
+window.inactive.button.hover.image.color: #e1ebbf
+window.inactive.button.iconify.hover.image.color: #83b8c3
+window.inactive.button.max.hover.image.color: #ffcf8d
+window.inactive.button.close.hover.image.color: #d2929c
+
+# Toggled + Unpressed
 window.inactive.button.toggled.unpressed.image.color: #c3d77f
 window.inactive.button.toggled.pressed.image.color: #B5CD60
 window.inactive.button.toggled.hover.image.color: #afb8c5
+
+################# Window descriptions ####################
 
 window.active.title.bg: flat solid
 window.active.title.bg.color: #242424
@@ -105,7 +144,8 @@ window.label.text.justify: left
 #window.active.label.text.font: text shadow
 #window.inactive.label.text.font: text shadow
 
-### MENU
+################# Menu ####################
+
 menu.border.width: 3
 menu.separator.width: 2
 menu.separator.padding.width: 6
@@ -118,7 +158,7 @@ menu.border.color: #6c7b39
 menu.separator.color: #90a44c
 
 menu.title.text.color: #ffffff
-menu.items.text.color: #e1ebbf
+menu.items.text.color: #e5e5e5
 menu.items.disabled.text.color: #76797F
 menu.items.active.text.color: #242424
 menu.items.active.disabled.text.color: #aeb0b6
@@ -132,10 +172,11 @@ menu.title.bg.color: #242424
 
 menu.title.text.justify: center
 
-### OSD
+################# On-screen display ####################
+
 osd.border.width: 6
 osd.border.color: #6c7b39
-osd.label.text.color: #e1ebbf
+osd.label.text.color: #e5e5e5
 
 osd.bg: flat solid
 osd.bg.color: #242424
