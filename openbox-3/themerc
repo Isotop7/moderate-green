@@ -44,7 +44,7 @@ window.client.padding.width: 4
 window.client.padding.height: 4
 window.handle.width: 0
 
-padding.width: 10
+padding.width: 12
 padding.height: 4
 
 ################### Window borders ####################
@@ -56,8 +56,8 @@ window.inactive.title.separator.color: #242424
 window.active.client.color: #242424
 window.inactive.client.color: #242424
 
-window.active.label.text.color: #B5CD60
-window.inactive.label.text.color: #e5e5e5
+window.active.label.text.color: #90a44c
+window.inactive.label.text.color: #6c7b39
 
 ################### Active Buttons ####################
 
@@ -139,7 +139,7 @@ window.inactive.button.toggled.unpressed.bg: parentrelative
 window.inactive.button.toggled.pressed.bg: parentrelative
 window.inactive.button.toggled.hover.bg: parentrelative
 
-window.label.text.justify: left
+window.label.text.justify: center
 
 #window.active.label.text.font: text shadow
 #window.inactive.label.text.font: text shadow
@@ -186,5 +186,6 @@ osd.hilight.bg: flat solid
 osd.hilight.bg.color: #B5CD60
 osd.unhilight.bg: flat solid
 osd.unhilight.bg.color: #e1ebbf
+
 
 #osd.label.text.font: text shadow
